@@ -1,61 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Palesa Malatshi Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Palesa Malatshi - Resume Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
     <style>
       body {
-        background-color: #3F3D3D;
         font-family: 'Inter', sans-serif;
+        border: 1px solid;
+        border-image-source: linear-gradient(0deg, #000000, #000000),
+          linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+          linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
       }
     </style>
   </head>
-  <body class="min-h-screen flex flex-col items-center px-4 py-8">
 
-    <!-- Profile Section -->
-<section class="flex flex-col sm:flex-row gap-6 items-start w-[1321.79px] h-[300.1px] mt-[63px] ml-[59px] rounded-[29.04px]">
+  <body class="bg-[#3F3D3D]/80 text-gray-800 overflow-x-hidden">
+    <!-- Page Wrapper with Padding -->
+    <div class="w-[1440px] min-h-screen mx-auto px-[59px] pt-[63px]">
+      <!-- Profile Section Container -->
+      <section class="w-[1321.79px] h-[300.1px] rounded-[29.04px] flex flex-col md:flex-row gap-6 md:gap-[28px]">
+        <!-- Profile Image -->
+        <div>
+          <img
+            src="profile.jpg"
+            alt="Palesa Malatshi profile image"
+            class="w-[300.1px] h-[300.1px] object-cover rounded-[29.04px]"
+          />
+        </div>
 
-  <!-- Profile Image -->
-  <div class="w-[300.1px] h-[300.1px] rounded-[29.04px] overflow-hidden flex-shrink-0 shadow-lg">
-    <img src="profile.jpg" alt="Palesa Malatshi" class="w-full h-full object-cover" />
+        <!-- Name Box -->
+        <div class="w-[994.68px] h-[300.1px] bg-white rounded-[29.04px] p-[59px] flex flex-col justify-center gap-[10px]">
+          <h1 class="text-4xl font-bold text-black leading-tight">
+            Palesa Malatshi
+          </h1>
+          <h2 class="text-xl font-semibold text-gray-700">
+            Junior Front End Web Developer
+          </h2>
+          <p class="text-base text-gray-600 leading-relaxed">
+            I’m a passionate, detail-driven front-end developer who builds with purpose and heart.
+            I combine HTML, CSS, JavaScript, and UI design principles to craft clean, responsive,
+            and accessible websites.
+          </p>
+        </div>
+      </section>
+      
+      <!-- PROFICIENCY SECTION -->
+<section class="mt-[40px] w-[563.9px] h-auto bg-white rounded-[29.04px] p-[41px_28px]">
+  <!-- Inner Wrapper -->
+  <div class="w-[509.1px] flex flex-col gap-[30px]">
+    <!-- Section Heading -->
+    <h2 class="text-[33.88px] font-medium leading-[1.5] text-black font-[Poppins]">
+      Proficiency
+    </h2>
+
+    <!-- Skills + Bars -->
+    <div class="flex gap-[24.2px]">
+      <!-- Skills List -->
+      <div class="w-[141px] flex flex-col justify-between gap-4">
+        <p class="text-gray-800 text-base font-semibold">HTML</p>
+        <p class="text-gray-800 text-base font-semibold">CSS</p>
+        <p class="text-gray-800 text-base font-semibold">JavaScript</p>
+        <p class="text-gray-800 text-base font-semibold">React</p>
+        <p class="text-gray-800 text-base font-semibold">Tailwind</p>
+        <p class="text-gray-800 text-base font-semibold">Bootstrap</p>
+      </div>
+
+      <!-- Progress Bars -->
+      <div class="w-[321.88px] flex flex-col justify-between gap-4">
+        <!-- Each progress bar -->
+        <div class="w-full bg-gray-200 h-4 rounded-full overflow-hidden">
+          <div class="bg-[#4A8B70] h-full w-[90%]"></div> <!-- HTML -->
+        </div>
+        <div class="w-full bg-gray-200 h-4 rounded-full overflow-hidden">
+          <div class="bg-[#4A8B70] h-full w-[85%]"></div> <!-- CSS -->
+        </div>
+        <div class="w-full bg-gray-200 h-4 rounded-full overflow-hidden">
+          <div class="bg-[#4A8B70] h-full w-[70%]"></div> <!-- JavaScript -->
+        </div>
+        <div class="w-full bg-gray-200 h-4 rounded-full overflow-hidden">
+          <div class="bg-[#4A8B70] h-full w-[60%]"></div> <!-- React -->
+        </div>
+        <div class="w-full bg-gray-200 h-4 rounded-full overflow-hidden">
+          <div class="bg-[#4A8B70] h-full w-[75%]"></div> <!-- Tailwind -->
+        </div>
+        <div class="w-full bg-gray-200 h-4 rounded-full overflow-hidden">
+          <div class="bg-[#4A8B70] h-full w-[80%]"></div> <!-- Bootstrap -->
+        </div>
+      </div>
+    </div>
   </div>
-
-  <!-- Name Box -->
-  <div class="bg-white shadow-md rounded-[29.04px] w-[994.69px] h-[300.1px] flex flex-col gap-[10px] px-[69px] py-[59px]">
-    <!-- Name -->
-    <h1 class="text-[36px] font-semibold text-black leading-[104%]">Palesa Malatshi</h1>
-
-    <!-- Bio -->
-    <p class="text-[#5C5C5C] text-[22px] font-normal leading-[151%] max-w-[856px]">
-      I am a passionate and dedicated software developer with a strong foundation in JavaScript and React. With hands-on experience in building dynamic and responsive web applications, I excel at transforming complex requirements into intuitive user interfaces.
-    </p>
-  </div>
-
 </section>
 
-    <!-- Mobile Responsive Tweaks -->
-    <style>
-      @media (max-width: 640px) {
-        h1 {
-          font-size: 18px;
-        }
-
-        p {
-          font-size: 14px;
-          line-height: 22px;
-        }
-
-        .sm\:w-\[144px\] {
-          width: 96px !important;
-          height: 96px !important;
-        }
-      }
-    </style>
+    </div>
 
   </body>
 </html>
