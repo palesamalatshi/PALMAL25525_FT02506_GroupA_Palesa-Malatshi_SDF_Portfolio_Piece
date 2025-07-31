@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palesa Malatshi Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        background-color: #3F3D3D;
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
+  </head>
+  <body class="min-h-screen flex flex-col items-center px-4 py-8">
+
+    <!-- Profile Section -->
+<section class="flex flex-col sm:flex-row gap-6 items-start w-[1321.79px] h-[300.1px] mt-[63px] ml-[59px] rounded-[29.04px]">
+
+  <!-- Profile Image -->
+  <div class="w-[300.1px] h-[300.1px] rounded-[29.04px] overflow-hidden flex-shrink-0 shadow-lg">
+    <img src="profile.jpg" alt="Palesa Malatshi" class="w-full h-full object-cover" />
+  </div>
+
+  <!-- Name Box -->
+  <div class="bg-white shadow-md rounded-[29.04px] w-[994.69px] h-[300.1px] flex flex-col gap-[10px] px-[69px] py-[59px]">
+    <!-- Name -->
+    <h1 class="text-[36px] font-semibold text-black leading-[104%]">Palesa Malatshi</h1>
+
+    <!-- Bio -->
+    <p class="text-[#5C5C5C] text-[22px] font-normal leading-[151%] max-w-[856px]">
+      I am a passionate and dedicated software developer with a strong foundation in JavaScript and React. With hands-on experience in building dynamic and responsive web applications, I excel at transforming complex requirements into intuitive user interfaces.
+    </p>
+  </div>
+
+</section>
+
+    <!-- Mobile Responsive Tweaks -->
+    <style>
+      @media (max-width: 640px) {
+        h1 {
+          font-size: 18px;
+        }
+
+        p {
+          font-size: 14px;
+          line-height: 22px;
+        }
+
+        .sm\:w-\[144px\] {
+          width: 96px !important;
+          height: 96px !important;
+        }
+      }
+    </style>
+
+  </body>
+</html>
