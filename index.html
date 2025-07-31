@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Palesa Malatshi - Resume Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <style>
       body {
         font-family: 'Inter', sans-serif;
         border: 1px solid;
-        border-image-source: linear-gradient(0deg, #000000, #000000),
+        border-image-source: linear-gradient(
+          0deg,
+          #000000,
+          #000000
+        ),
           linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
           linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
       }
@@ -18,12 +25,16 @@
   </head>
 
   <body class="bg-[#3F3D3D]/80 text-gray-800 overflow-x-hidden">
-    <!-- Page Wrapper with Padding -->
-    <div class="w-[1440px] min-h-screen mx-auto px-[59px] pt-[63px]">
+    <!-- Page Wrapper with Padding and max width for better responsiveness -->
+    <div
+      class="max-w-[1440px] min-h-screen mx-auto px-[59px] pt-[63px] box-border"
+    >
       <!-- Profile Section Container -->
-      <section class="w-[1321.79px] h-[300.1px] rounded-[29.04px] flex flex-col md:flex-row gap-6 md:gap-[28px]">
+      <section
+        class="w-full max-w-[1321.79px] h-[300.1px] rounded-[29.04px] flex flex-col md:flex-row gap-6 md:gap-[28px] bg-transparent"
+      >
         <!-- Profile Image -->
-        <div>
+        <div class="flex-shrink-0">
           <img
             src="profile.jpg"
             alt="Palesa Malatshi profile image"
@@ -32,111 +43,270 @@
         </div>
 
         <!-- Name Box -->
-        <div class="w-[994.68px] h-[300.1px] bg-white rounded-[29.04px] p-[59px] flex flex-col justify-center gap-[10px]">
-          <h1 class="text-4xl font-bold text-black leading-tight">
+        <div
+          class="flex-grow w-full md:w-[994.68px] h-[300.1px] bg-white rounded-[29.04px] p-[59px] flex flex-col justify-center gap-[10px] box-border"
+        >
+          <h1
+            class="text-4xl font-bold text-black leading-tight font-poppins"
+          >
             Palesa Malatshi
           </h1>
-          <h2 class="text-xl font-semibold text-gray-700">
+          <h2 class="text-xl font-semibold text-gray-700 font-poppins">
             Junior Front End Web Developer
           </h2>
-          <p class="text-base text-gray-600 leading-relaxed">
-            I’m a passionate, detail-driven front-end developer who builds with purpose and heart.
-            I combine HTML, CSS, JavaScript, and UI design principles to craft clean, responsive,
-            and accessible websites.
+          <p class="text-base text-gray-600 leading-relaxed font-inter">
+            I’m a passionate, detail-driven front-end developer who builds
+            with purpose and heart. I combine HTML, CSS, JavaScript, and UI
+            design principles to craft clean, responsive, and accessible
+            websites.
           </p>
         </div>
       </section>
-      
-<!-- PROFICIENCY & SKILLS WRAPPER -->
-<div class="mt-[40px] flex flex-col md:flex-row gap-[39px]">
-  <!-- PROFICIENCY SECTION -->
-  <section class="w-[563.9px] h-auto bg-white rounded-[29.04px] p-[41px_28px]">
-    <!-- Inner Wrapper -->
-    <div class="w-[509.1px] flex flex-col gap-[30px]">
-      <!-- Section Heading -->
-      <h2 class="text-[33.88px] font-medium leading-[1.5] text-black font-[Poppins]">
-        Proficiency
-      </h2>
 
-      <!-- Skills + Bars -->
-      <div class="flex gap-[24.2px]">
-        <!-- Skills List -->
-        <div class="w-[141px] flex flex-col justify-between gap-4">
-          <p class="text-gray-800 text-base font-semibold">HTML</p>
-          <p class="text-gray-800 text-base font-semibold">CSS</p>
-          <p class="text-gray-800 text-base font-semibold">JavaScript</p>
-          <p class="text-gray-800 text-base font-semibold">React</p>
-          <p class="text-gray-800 text-base font-semibold">Tailwind</p>
-          <p class="text-gray-800 text-base font-semibold">Bootstrap</p>
-        </div>
+      <!-- PROFICIENCY & SKILLS WRAPPER -->
+      <div
+        class="mt-[40px] flex flex-col md:flex-row gap-[39px] max-w-[1321.79px]"
+      >
+        <!-- PROFICIENCY SECTION -->
+        <section
+          class="w-full md:w-[563.9px] bg-white rounded-[29.04px] p-[41px_28px] box-border"
+        >
+          <div class="w-[509.1px] flex flex-col gap-[30px] mx-auto">
+            <h2
+              class="text-[33.88px] font-medium leading-[1.5] text-black font-poppins"
+            >
+              Proficiency
+            </h2>
 
-        <!-- Progress Bars -->
-        <div class="w-[321.88px] flex flex-col justify-between gap-4">
-          <div class="w-full bg-gray-200 h-4 rounded-full overflow-hidden">
-            <div class="bg-[#4A8B70] h-full w-[90%]"></div> <!-- HTML -->
+            <div class="flex gap-[24.2px]">
+              <!-- Skills List -->
+              <div class="w-[141px] flex flex-col justify-between gap-4 font-semibold text-gray-800 font-inter">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+                <p>React</p>
+                <p>Tailwind</p>
+                <p>Bootstrap</p>
+              </div>
+
+              <!-- Progress Bars -->
+              <div
+                class="w-[321.88px] flex flex-col justify-between gap-4"
+                aria-label="Skill proficiency bars"
+              >
+                <div class="w-full bg-gray-200 h-4 rounded-full overflow-hidden">
+                  <div class="bg-[#4A8B70] h-full w-[90%]" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" role="progressbar"></div>
+                </div>
+                <div class="w-full bg-gray-200 h-4 rounded-full overflow-hidden">
+                  <div class="bg-[#4A8B70] h-full w-[85%]" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" role="progressbar"></div>
+                </div>
+                <div class="w-full bg-gray-200 h-4 rounded-full overflow-hidden">
+                  <div class="bg-[#4A8B70] h-full w-[70%]" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" role="progressbar"></div>
+                </div>
+                <div class="w-full bg-gray-200 h-4 rounded-full overflow-hidden">
+                  <div class="bg-[#4A8B70] h-full w-[60%]" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" role="progressbar"></div>
+                </div>
+                <div class="w-full bg-gray-200 h-4 rounded-full overflow-hidden">
+                  <div class="bg-[#4A8B70] h-full w-[75%]" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" role="progressbar"></div>
+                </div>
+                <div class="w-full bg-gray-200 h-4 rounded-full overflow-hidden">
+                  <div class="bg-[#4A8B70] h-full w-[80%]" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" role="progressbar"></div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="w-full bg-gray-200 h-4 rounded-full overflow-hidden">
-            <div class="bg-[#4A8B70] h-full w-[85%]"></div> <!-- CSS -->
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section
+          class="w-full md:w-[706px] bg-white rounded-[29.04px] p-[28px] flex flex-col gap-[39px] box-border"
+        >
+          <h2
+            class="text-[33.88px] font-medium text-black font-poppins text-center"
+          >
+            Skills
+          </h2>
+
+          <div class="flex flex-wrap gap-[19.36px] justify-center">
+            <span
+              class="bg-[#E7F0EC] text-black px-[24.2px] py-[9.68px] rounded-full font-medium font-poppins whitespace-nowrap"
+              >HTML5</span
+            >
+            <span
+              class="bg-[#E7F0EC] text-black px-[24.2px] py-[9.68px] rounded-full font-medium font-poppins whitespace-nowrap"
+              >CSS3</span
+            >
+            <span
+              class="bg-[#E7F0EC] text-black px-[24.2px] py-[9.68px] rounded-full font-medium font-poppins whitespace-nowrap"
+              >JavaScript</span
+            >
+            <span
+              class="bg-[#E7F0EC] text-black px-[24.2px] py-[9.68px] rounded-full font-medium font-poppins whitespace-nowrap"
+              >React</span
+            >
+            <span
+              class="bg-[#E7F0EC] text-black px-[24.2px] py-[9.68px] rounded-full font-medium font-poppins whitespace-nowrap"
+              >Tailwind CSS</span
+            >
+            <span
+              class="bg-[#E7F0EC] text-black px-[24.2px] py-[9.68px] rounded-full font-medium font-poppins whitespace-nowrap"
+              >Bootstrap</span
+            >
+            <span
+              class="bg-[#E7F0EC] text-black px-[24.2px] py-[9.68px] rounded-full font-medium font-poppins whitespace-nowrap"
+              >Git &amp; GitHub</span
+            >
+            <span
+              class="bg-[#E7F0EC] text-black px-[24.2px] py-[9.68px] rounded-full font-medium font-poppins whitespace-nowrap"
+              >Figma</span
+            >
+            <span
+              class="bg-[#E7F0EC] text-black px-[24.2px] py-[9.68px] rounded-full font-medium font-poppins whitespace-nowrap"
+              >UI Design</span
+            >
           </div>
-          <div class="w-full bg-gray-200 h-4 rounded-full overflow-hidden">
-            <div class="bg-[#4A8B70] h-full w-[70%]"></div> <!-- JavaScript -->
-          </div>
-          <div class="w-full bg-gray-200 h-4 rounded-full overflow-hidden">
-            <div class="bg-[#4A8B70] h-full w-[60%]"></div> <!-- React -->
-          </div>
-          <div class="w-full bg-gray-200 h-4 rounded-full overflow-hidden">
-            <div class="bg-[#4A8B70] h-full w-[75%]"></div> <!-- Tailwind -->
-          </div>
-          <div class="w-full bg-gray-200 h-4 rounded-full overflow-hidden">
-            <div class="bg-[#4A8B70] h-full w-[80%]"></div> <!-- Bootstrap -->
-          </div>
-        </div>
+        </section>
       </div>
+
+      <!-- PROJECTS SECTION -->
+      <section
+        class="mt-[60px] w-full max-w-[1318px] bg-white rounded-[29.04px] p-[30px] flex flex-col gap-[30px] box-border"
+      >
+        <h2
+          class="text-[33.88px] font-medium text-black font-poppins text-center"
+        >
+          Projects
+        </h2>
+
+        <div
+          class="w-full flex flex-wrap gap-[24px] justify-between md:flex-row flex-col"
+        >
+          <!-- Project Card -->
+          <article
+            class="w-[272px] bg-[#4A8B70] text-white rounded-[29.04px] p-[21px_15px] flex flex-col gap-[16px] relative shadow-md"
+          >
+            <div class="absolute top-[16px] right-[16px]">
+              <!-- Heart SVG -->
+              <svg
+                width="26.6"
+                height="22.7"
+                viewBox="0 0 26 23"
+                fill="#D76239"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13 22.7s-1.1-.5-2.3-1.5C6.4 17.7 0 13.1 0 7.1 0 3.2 3.2 0 7.1 0c2.1 0 4 1 5.2 2.6C13.9 1 15.9 0 18 0 21.9 0 25 3.2 25 7.1c0 6-6.4 10.6-10.7 14.1-1.2 1-2.3 1.5-2.3 1.5z"
+                />
+              </svg>
+            </div>
+
+            <p class="text-[24.2px] font-medium font-poppins leading-[1.5]">
+              2025
+            </p>
+            <h3 class="text-[20px] font-bold font-poppins">
+              Mayothi’s Beauty Studio
+            </h3>
+            <p class="text-sm leading-relaxed font-inter">
+              A full business website designed for a beauty studio with
+              responsive layout, service gallery modal, and stylish UI using
+              Tailwind and Alpine.js.
+            </p>
+          </article>
+
+          <!-- Project Card -->
+          <article
+            class="w-[272px] bg-[#E7F0EC] text-black rounded-[29.04px] p-[21px_15px] flex flex-col gap-[16px] relative shadow-md"
+          >
+            <div class="absolute top-[16px] right-[16px]">
+              <!-- Heart SVG -->
+              <svg
+                width="26.6"
+                height="22.7"
+                viewBox="0 0 26 23"
+                fill="#D76239"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13 22.7s-1.1-.5-2.3-1.5C6.4 17.7 0 13.1 0 7.1 0 3.2 3.2 0 7.1 0c2.1 0 4 1 5.2 2.6C13.9 1 15.9 0 18 0 21.9 0 25 3.2 25 7.1c0 6-6.4 10.6-10.7 14.1-1.2 1-2.3 1.5-2.3 1.5z"
+                />
+              </svg>
+            </div>
+
+            <p class="text-[24.2px] font-medium font-poppins leading-[1.5]">
+              2025
+            </p>
+            <h3 class="text-[20px] font-bold font-poppins">
+              Face Tracking Web App
+            </h3>
+            <p class="text-sm leading-relaxed font-inter">
+              A Next.js-based app that detects faces in real-time and records
+              video. Includes recording timer, overlays, and localStorage.
+            </p>
+          </article>
+
+          <!-- Project Card -->
+          <article
+            class="w-[272px] bg-[#E7F0EC] text-black rounded-[29.04px] p-[21px_15px] flex flex-col gap-[16px] relative shadow-md"
+          >
+            <div class="absolute top-[16px] right-[16px]">
+              <!-- Heart SVG -->
+              <svg
+                width="26.6"
+                height="22.7"
+                viewBox="0 0 26 23"
+                fill="#D76239"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13 22.7s-1.1-.5-2.3-1.5C6.4 17.7 0 13.1 0 7.1 0 3.2 3.2 0 7.1 0c2.1 0 4 1 5.2 2.6C13.9 1 15.9 0 18 0 21.9 0 25 3.2 25 7.1c0 6-6.4 10.6-10.7 14.1-1.2 1-2.3 1.5-2.3 1.5z"
+                />
+              </svg>
+            </div>
+
+            <p class="text-[24.2px] font-medium font-poppins leading-[1.5]">
+              2024
+            </p>
+            <h3 class="text-[20px] font-bold font-poppins">
+              CodeSpace Cat Portfolio
+            </h3>
+            <p class="text-sm leading-relaxed font-inter">
+              A personal online portfolio showcasing all my projects and skills,
+              fully responsive and built with semantic HTML and CSS Grid.
+            </p>
+          </article>
+
+          <!-- Project Card -->
+          <article
+            class="w-[272px] bg-[#E7F0EC] text-black rounded-[29.04px] p-[21px_15px] flex flex-col gap-[16px] relative shadow-md"
+          >
+            <div class="absolute top-[16px] right-[16px]">
+              <!-- Heart SVG -->
+              <svg
+                width="26.6"
+                height="22.7"
+                viewBox="0 0 26 23"
+                fill="#D76239"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13 22.7s-1.1-.5-2.3-1.5C6.4 17.7 0 13.1 0 7.1 0 3.2 3.2 0 7.1 0c2.1 0 4 1 5.2 2.6C13.9 1 15.9 0 18 0 21.9 0 25 3.2 25 7.1c0 6-6.4 10.6-10.7 14.1-1.2 1-2.3 1.5-2.3 1.5z"
+                />
+              </svg>
+            </div>
+
+            <p class="text-[24.2px] font-medium font-poppins leading-[1.5]">
+              2024
+            </p>
+            <h3 class="text-[20px] font-bold font-poppins">
+              Instagram Pet Clone
+            </h3>
+            <p class="text-sm leading-relaxed font-inter">
+              A fun project replicating the Instagram feed layout using CSS Grid,
+              emphasizing mobile-first design and UI component structure.
+            </p>
+          </article>
+        </div>
+      </section>
     </div>
-  </section>
-
-  <!-- SKILLS SECTION -->
-  <section class="w-[706px] h-auto bg-white rounded-[29.04px] p-[28px] flex flex-col gap-[39px]">
-    <!-- Section Title -->
-    <h2 class="text-[33.88px] font-medium text-black font-[Poppins] text-center">
-      Skills
-    </h2>
-
-    <!-- Skills Grid -->
-    <div class="flex flex-wrap gap-[19.36px]">
-      <span class="bg-[#E7F0EC] text-black px-[24.2px] py-[9.68px] rounded-full font-medium">
-        HTML5
-      </span>
-      <span class="bg-[#E7F0EC] text-black px-[24.2px] py-[9.68px] rounded-full font-medium">
-        CSS3
-      </span>
-      <span class="bg-[#E7F0EC] text-black px-[24.2px] py-[9.68px] rounded-full font-medium">
-        JavaScript
-      </span>
-      <span class="bg-[#E7F0EC] text-black px-[24.2px] py-[9.68px] rounded-full font-medium">
-        React
-      </span>
-      <span class="bg-[#E7F0EC] text-black px-[24.2px] py-[9.68px] rounded-full font-medium">
-        Tailwind CSS
-      </span>
-      <span class="bg-[#E7F0EC] text-black px-[24.2px] py-[9.68px] rounded-full font-medium">
-        Bootstrap
-      </span>
-      <span class="bg-[#E7F0EC] text-black px-[24.2px] py-[9.68px] rounded-full font-medium">
-        Git & GitHub
-      </span>
-      <span class="bg-[#E7F0EC] text-black px-[24.2px] py-[9.68px] rounded-full font-medium">
-        Figma
-      </span>
-      <span class="bg-[#E7F0EC] text-black px-[24.2px] py-[9.68px] rounded-full font-medium">
-        UI Design
-      </span>
-    </div>
-  </section>
-</div>
-
-
-    </div>
-
   </body>
 </html>
