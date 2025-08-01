@@ -4,7 +4,7 @@ This repository contains the code for my personal resume and portfolio website. 
 🚀 Live Demo & Presentation
 Live Website: [Insert Link to your GitHub Pages or Vercel Deployment]
 
-Video Presentation: [Insert Link to your video recording on Google Drive, YouTube, or Veed.io]
+Video Presentation: [https://drive.google.com/file/d/1yQ181clU-ftgD2uOQFxQRvsSQpZNF4kz/view?usp=sharing]
 
 📋 Table of Contents
 Features
@@ -76,5 +76,6 @@ Email: palesamalatshi22@gmail.com
 LinkedIn: https://www.linkedin.com/in/palesa-malatshi-945a702b6
 
 GitHub: https://github.com/palesamalatshi
+
 
 
