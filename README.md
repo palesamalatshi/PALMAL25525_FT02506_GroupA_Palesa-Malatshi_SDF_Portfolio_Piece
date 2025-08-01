@@ -1,121 +1,80 @@
-# 💼 SDFPP Resume Project
+Palesa Malatshi - Junior Front End Web Developer Portfolio
+This repository contains the code for my personal resume and portfolio website. The site is a showcase of my skills in front-end development, demonstrating my ability to build clean, responsive, and accessible web pages.
 
-Welcome to your first major **portfolio project** in the Software Development Program is a resume project (SDFPP). In this challenge, using a [Figma design file](https://www.figma.com/design/fM2tutgIH0k1SrNir4MVe3/SDF-Resume-Project-STUDENT-REFERENCE-FILE?node-id=0-1&t=yGSXI1yv4AgjKBvA-1) as reference, you’ll create your very own online resume — a personal website that shows off your skills, experience, and code style using **HTML and CSS**.
+🚀 Live Demo & Presentation
+Live Website: [Insert Link to your GitHub Pages or Vercel Deployment]
 
-This is not just practice — this is something you can proudly include in your portfolio and share with future employers!
+Video Presentation: [Insert Link to your video recording on Google Drive, YouTube, or Veed.io]
 
----
+📋 Table of Contents
+Features
 
-## 📌 Project Overview
+Technologies Used
 
-**Project Name:** Resume Project  
-**Difficulty:** Beginner–Intermediate  
-**Goal:** Replicate a Figma design of a resume site as accurately as possible using HTML and CSS  
-**Tools Required:** HTML5, CSS3, Git, GitHub  
-**Deployment:** Not required — site must run locally in browser  
-**Submission Includes:**
-- A link to your GitHub repo
-- A screen recording of your presentation (5–10 minutes)
-- A complete README (you’re reading it!)
+Project Structure
 
- 🎨Link to Figma Reference File: https://www.figma.com/design/fM2tutgIH0k1SrNir4MVe3/SDF-Resume-Project-STUDENT-REFERENCE-FILE?node-id=0-1&t=yGSXI1yv4AgjKBvA-1
+Installation & Setup
 
----
+About Me
 
-## 🧠 What You'll Build
+Contact
 
-You will build a fully responsive, Figma-matching resume site that includes the following sections:
+✨ Features
+Responsive Design: The layout is fully responsive and optimized for mobile, tablet, and desktop screens.
 
-- Profile & Summary
-- Proficiency Bars
-- Skills Tags
-- Projects Grid
-- Education & Work History
-- Tools Section
-- Contact Footer
+Semantic HTML: Structured with modern, semantic HTML5 tags for improved accessibility and SEO.
 
----
+Modern CSS: Utilizes Tailwind CSS for a utility-first approach to styling, ensuring a consistent and maintainable design system.
 
-## 🧪 How You’ll Be Marked
+Interactive Components: Includes skill proficiency bars, a dynamic project gallery (as seen in the Freelancer project), and working contact links.
 
-Your project will be assessed using **two components**:
+Clear Information Architecture: Presents education, experience, and projects in a logical and easy-to-read format.
 
-### ✅ 1. Code & Layout Marking 
-Each section of your resume site is scored based on:
-- Use of semantic HTML and correct structure
-- Accurate styling, spacing, typography, and colour matching the Figma
-- Pixel accuracy for layout and alignment
-- Responsive layout on mobile screens
-- Clean and well-structured code
-- Functional and visually polished components
-- Accessibility (e.g., alt text for images and icons)
+Portfolio Showcase: Highlights key projects with details on the brief, technologies used, and responsiveness.
 
-> A full breakdown of the scoring rubric is available on your Dashboard. Each feature is mapped to a clear user story and assigned a difficulty rating. Some features offer bonus points for pixel-perfection ✨
+💻 Technologies Used
+HTML5: For the core structure of the website.
 
-### 🎙️ 2. Recorded Presentation 
-You must record a **5–10 minute** screen presentation of your project using Loom, OBS, or any screen recorder.
+Tailwind CSS: For all styling and responsive design.
 
-You will be scored on:
-- How well you explain your code and decisions
-- Understanding and communication of the project brief
-- Visual walkthrough of your site and responsiveness
-- Presentation skills (confidence, clarity, visual aids)
+JavaScript: For any interactive elements (e.g., gallery modals).
 
-📎 [View the Presentation Template Here](https://github.com/CodeSpace-Academy/SDFPP-2025/blob/main/project%20guide/presentation_template.md)
+Git & GitHub: For version control and hosting this repository.
 
----
+📂 Project Structure
+├── index.html
+├── profile.jpg
+└── README.md
+index.html: The main and only HTML file containing all the content and Tailwind CSS styling.
 
-## ✅ Submission Requirements
+profile.jpg: The profile image used on the resume.
 
-To pass this project, you must submit the following:
+⚙ Installation & Setup
+To run this project locally, follow these steps:
 
-| Task | Required |
-|------|----------|
-| All required sections built | ✅ |
-| Semantic, readable HTML | ✅ |
-| Well-organised, responsive CSS | ✅ |
-| GitHub repo with clean commit history | ✅ |
-| README file with project info | ✅ |
-| 5–10 minute video presentation | ✅ |
+Clone the repository:
 
----
+Bash
 
-## 🧰 Project Setup Instructions
+git clone https://github.com/palesamalatshi/your-repo-name.git
+Navigate to the project directory:
 
-1. Clone your starter project folder (or create a new repo)
-2. Build your site using HTML and CSS
-3. Test it on different screen sizes
-4. Use Git to track your progress with frequent commits
-5. Record your presentation walkthrough
-6. Submit your GitHub link + recording link via the LMS
+Bash
 
----
+cd your-repo-name
+Open index.html:
+Simply open the index.html file in your web browser to view the resume.
 
-## 🎯 Extra Credit (Bonus Points)
+👋 About Me
+I am a passionate and detail-driven front-end developer who builds with purpose and heart. I'm a recent graduate of the CodeSpace Academy and am actively seeking my first role in the tech industry. I am eager to apply my skills in HTML, CSS, JavaScript, and UI design to create clean, responsive, and accessible websites.
 
-You can earn bonus marks for:
-- A **pixel-perfect build** that is accurate within 10px of the Figma
-- Thoughtful use of layout tools (Grid, Flexbox)
-- Polished hover states and accessibility improvements
-- High-quality code that’s modular and scalable
+📧 Contact
+Feel free to reach out to me!
 
----
+Email: palesamalatshi22@gmail.com
 
-## 📩 Submit Your Project
+LinkedIn: https://www.linkedin.com/in/palesa-malatshi-945a702b6
 
-- ✅ Make sure the naming convention of your repo is correct
-- ✅ Include this README file in your repo  
-- ✅ Add your 5–10 min presentation video link to Google Drive (or similar) and share it with your coach 
-- ✅ Paste your video link in your README 
-- ✅ Push your project to your SDFPP GitHub repo
-- ✅ Submit your SDFPP GitHub repo link to the LMS
+GitHub: https://github.com/palesamalatshi
 
----
 
-## 🙌 Good Luck!
-
-Take your time. Follow the walkthrough. Ask for help if you need it.
-
-You're not just building a resume site — you're building confidence, skills, and a real piece of your future portfolio.
-
-**You’ve got this. Let’s go! 🚀**
